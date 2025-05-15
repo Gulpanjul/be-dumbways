@@ -1,7 +1,6 @@
-# Day 1 - Express Dasar dengan Typescript (Tanpa Database, Dummy Data)
+# Day 2 - Express + Prisma Basic CRUD
 
 ## Materi
-- Setup Express dengan tema Blog (menggunakan typescript)
-- Buat routing endpoint [A1] dan controllers [A2] untuk API
-- Buat API (Request [A5] & Response [A6]) sederhana (Create & Read posts dengan JSON dummy) dan menggunakan body parser [A4]
-- Refactor Kode jadi modular (Pisah routes & controllers)
+- Setup PostgreSQL + Prisma Schema untuk tabel Products
+- Migrasi database [B3]
+- Buat API untuk Create dan Read menggunakan Prisma [B5]

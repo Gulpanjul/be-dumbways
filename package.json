@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev src/app.ts"
+    "dev": "ts-node-dev --respawn src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/Gulpanjul/be-dumbways#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "@prisma/client": "^6.7.0",
+    "express": "^5.1.0",
+    "prisma": "^6.7.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
