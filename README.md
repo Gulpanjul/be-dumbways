@@ -1,6 +1,7 @@
-# Day 2 - Express + Prisma Basic CRUD
+# Day 3 - Prisma Advance Query
 
 ## Materi
-- Setup PostgreSQL + Prisma Schema untuk tabel Products
-- Migrasi database [B3]
-- Buat API untuk Create dan Read menggunakan Prisma [B5]
+- Setup Prisma Schema dan PostgreSQL untuk tabel Users, Products, dan Orders
+- Filtering dan Sorting Data pada tabel Products [B8]
+- Pagination dengan Prisma untuk membuat paginasi hasil query [B9]
+- Grouping data Orders berdasarkan userId menggunakan Prisma groupBy [B10]

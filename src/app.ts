@@ -1,11 +1,10 @@
 import express from "express";
-import routerProduct  from "./routes/products";
-import routerUser from "./routes/user";
+import router  from "./routes/products";
 
 const app = express();
 app.use(express.json());
 
-app.use("/api/v1", routerProduct, routerUser);
+app.use("/api/v1", router);
 
 app.listen(process.env.PORT, () => {
 	console.log("server is running");
