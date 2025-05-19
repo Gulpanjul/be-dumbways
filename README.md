@@ -1,9 +1,6 @@
-# Day 5 - Authentication, Authorization, and Security
+# Day 6 - File Upload, Session, and Security Part 2
 
 ## Materi
-- Setup Tabel User
-- Input Validation pada endpoint CRUD Register dan Login
-- Implementasi Encryption untuk mengenkrisi data sensitif yang dikirimkan saat login
-- Implementasi Hashing untuk menyimpan password supplier dengan aman
-- Implementasi Authentication JWT untuk login user
-- Implementasi Authorization berbasis role
+- File Upload menggunakan middleware multer untuk menangani upload file gambar (misalkan gambar profile user) [A8]
+- CORS untuk mengatur akses antar-origin dari client [D4]
+- Rate Limiting untuk membatasi jumlah request dan menghindari DDoS attack sederhana (D6)
